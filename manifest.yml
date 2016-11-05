@@ -1,0 +1,7 @@
+applications:
+- name: hystrix-dashboard
+  memory: 512M
+  random-route: false
+  path: target/hystrix-dashboard-0.0.1-SNAPSHOT.jar
+  services:
+  - eureka-service
